@@ -131,7 +131,7 @@ done
 | Terminal | Terminal.app (⌘+Space → “Terminal”) | **PowerShell** (Win → “PowerShell”) or Git Bash | Ctrl+Alt+T |
 | Git install | `git --version` triggers Xcode CLT install (5–10 min, needs internet; start it early!) | `winget install --id Git.Git -e` or git-scm.com installer; **reopen the terminal** | `apt/dnf/pacman install git` |
 | Auth | `gh` via Homebrew/installer | `gh` via winget; Git Credential Manager comes with Git for Windows (browser popup on first push) | `gh` (apt/dnf/official page) |
-| Text editor | VS Code or `nano` (avoid TextEdit: smart quotes break JSON) | VS Code or `notepad` | VS Code or `nano`/`gedit` |
+| Text editor | VS Code or `vim` (avoid TextEdit: smart quotes break JSON) | VS Code or `notepad` | VS Code or `vim`/`gedit` |
 | Gotchas | Old Macs may lack Homebrew → use the `gh` installer | Run PowerShell as normal user (not admin). Cloud-synced `Documents` (OneDrive) → guide uses `~/workshop`. `ls`, `cd`, `pwd`, `cp` work in PowerShell. Execution-policy warnings don’t matter here. | Distros differ; `sudo` password prompts show no characters. |
 
 Chromebooks: use the Linux (Crostini) terminal, or have them pair up. Tablets/phones can’t do this workshop → pair them.
